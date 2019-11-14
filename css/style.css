@@ -7,6 +7,16 @@ h1 {
   padding: 10px;
 }
 
+h2 {
+  font-size: 60px;
+  padding: 10px;
+}
+
+#research h3, #research h4, #research h5, #research h5, #research h6 {
+  font-size: 25px;
+  padding: 10px;
+}
+
 .skipcont a{
   background: white;
   left: 0;
