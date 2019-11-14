@@ -2,6 +2,16 @@ body {
   margin: 0;
 }
 
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 100px;
+  padding: 10px;
+}
+
 .skipcont a{
   background: white;
   left: 0;
