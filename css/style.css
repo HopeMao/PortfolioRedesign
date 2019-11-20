@@ -77,3 +77,33 @@ padding-inline-start: 20px;
   height: auto;
   margin: 20px;
 }
+
+
+.nav-sections{
+  display: flex;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  background-color: black; /*#4FC3F7;*/
+  align-items: top;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+}
+.navlink a{
+  font-size: 22px;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.active{
+  text-decoration: underline;
+  font-weight: bold;
+}
