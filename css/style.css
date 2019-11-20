@@ -62,12 +62,16 @@ padding-inline-start: 20px;
   background-repeat: no-repeat;
 }
 
+#landing h1 {
+  text-align: center;
+}
+
 #landing .homebuttons {
   text-align: center;
 }
 
 .homebuttons a {
-  margin: 50px;
+  margin: 40px;
 }
 
 a.umbutton, a.googlebutton, a.researchbutton{
