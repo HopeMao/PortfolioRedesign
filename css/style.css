@@ -64,6 +64,8 @@ padding-inline-start: 20px;
 
 #landing h1 {
   text-align: center;
+  margin-top: 16%;
+  margin-bottom: 5%;
 }
 
 #landing .homebuttons {
@@ -79,6 +81,7 @@ a.umbutton, a.googlebutton, a.researchbutton{
     -moz-appearance: button;
     appearance: button;
     padding: 5px;
+    background-color: white;
     border: 5px, black, solid;
     text-decoration: none;
     color: initial;
