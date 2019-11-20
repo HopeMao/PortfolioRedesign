@@ -45,7 +45,8 @@ padding-inline-start: 20px;
 #maincontent {
   display: grid;
   grid-template-columns: 25% 25% 25% 25% ;
-  grid-template-rows: 100vh 45vh 50vh;
+  grid-template-rows: 100vh 45vh 50vh 100vh;
+  /* for home: landing, about, about image, publications */
 }
 
 #landing {
@@ -59,6 +60,16 @@ padding-inline-start: 20px;
   -o-background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
+}
+
+a.umbutton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    padding: 5px;
+    border: 5px, black, solid;
+    text-decoration: none;
+    color: initial;
 }
 
 #about {
