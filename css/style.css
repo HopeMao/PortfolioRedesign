@@ -62,7 +62,15 @@ padding-inline-start: 20px;
   background-repeat: no-repeat;
 }
 
-a.umbutton {
+#landing .homebuttons {
+  text-align: center;
+}
+
+.homebuttons a {
+  margin: 50px;
+}
+
+a.umbutton, a.googlebutton, a.researchbutton{
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
