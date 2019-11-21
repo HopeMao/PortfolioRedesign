@@ -99,7 +99,7 @@ a.umbutton, a.googlebutton, a.researchbutton{
 }
 
 .about-img {
-  width: 75%;
-  height: auto;
+  height: 90vh;
+  max-height: 90%;
   margin: 20px;
 }
