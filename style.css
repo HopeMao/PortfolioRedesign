@@ -45,9 +45,7 @@ padding-inline-start: 20px;
 #maincontent {
   display: grid;
   grid-template-columns: 25% 25% 25% 25% ;
-  /* grid-template-rows: 100vh 45vh 50vh 100vh; */
-  grid-template-rows: 100vh auto auto 100vh;
-
+  grid-template-rows: 100vh 45vh 50vh 100vh;
   /* for home: landing, about, about image, publications */
 }
 
@@ -74,17 +72,8 @@ padding-inline-start: 20px;
   text-align: center;
 }
 
-.homebuttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:center
-
-}
-
 .homebuttons a {
   margin: 40px;
-  /* display: block; */
-  width: 200px;
 }
 
 a.umbutton, a.googlebutton, a.researchbutton{
@@ -103,11 +92,6 @@ a.umbutton, a.googlebutton, a.researchbutton{
   grid-row: 2/3;
 }
 
-#about p, #about h2 {
-  margin: 5%;
-
-}
-
 #aboutimg {
   grid-column: 1/-1;
   grid-row: 3/4;
@@ -115,38 +99,28 @@ a.umbutton, a.googlebutton, a.researchbutton{
 }
 
 .about-img {
-  /* height: 90vh; */
-  width: 75vw;
-  /* max-height: 90%; */
+  width: 75%;
+  height: auto;
   margin: 20px;
 }
 
+#contact-img {
+  grid-column: 1/-1;
+  text-align: center;
 
-.nav-sections{
-  display: flex;
 }
 
-nav{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-  background-color: black; /*#4FC3F7;*/
-  align-items: top;
-  justify-content: center;
-  width: 100%;
-  padding: 10px;
-}
-a{
-  text-decoration: none;
-}
-.navlink a{
-  font-size: 22px;
+.contact {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  right: 0%;
+  left: 0%;
   color: white;
-  padding-left: 40px;
-  padding-right: 40px;
+  background:rgba(0, 10, 20, .8);
+
+
 }
-.active{
-  text-decoration: underline;
-  font-weight: bold;
-}
+
+
+
