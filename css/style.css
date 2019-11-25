@@ -124,10 +124,6 @@ a.umbutton, a.googlebutton, a.researchbutton{
 
 .nav-sections{
   display: flex;
-}
-
-nav{
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   height: auto;
@@ -135,8 +131,11 @@ nav{
   align-items: top;
   justify-content: center;
   width: 100%;
-  padding: 10px;
+  padding:20px;
+  margin:0px;
+
 }
+
 a{
   text-decoration: none;
 }
