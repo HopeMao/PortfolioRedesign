@@ -135,16 +135,23 @@ a.umbutton, a.googlebutton, a.researchbutton{
   margin:0px;
 }
 
-a{
-  text-decoration: none;
-}
+
 .navlink a{
   font-size: 22px;
   color: white;
   padding-left: 40px;
   padding-right: 40px;
+  text-decoration: none;
 }
-.active{
+.navlink .active{
   text-decoration: underline;
+  font-weight: bold;
+}
+
+a{
+  color: black;
+  text-decoration: underline;
+}
+a:hover{
   font-weight: bold;
 }
