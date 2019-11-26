@@ -11,7 +11,7 @@ h1 {
   padding: 10px;
 }
 
-h2 {
+h2, h3 {
   font-size: 60px;
   padding: 10px;
 }
@@ -101,11 +101,24 @@ a.umbutton, a.googlebutton, a.researchbutton{
 #about {
   grid-column: 1/-1;
   grid-row: 2/3;
+  margin: 5%;
+}
+#news {
+  grid-column: 1/-1;
+  grid-row: 4/5;
+  background: #ffffff url("../images/homebg.jpg")
+}
+#news .newpub, #news .newpaper, #news h3 {
+  margin: 5%;
 }
 
-#about p, #about h2 {
-  margin: 5%;
-
+.newpub, .newpaper {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#news p {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #aboutimg {
@@ -119,6 +132,10 @@ a.umbutton, a.googlebutton, a.researchbutton{
   width: 75vw;
   /* max-height: 90%; */
   margin: 20px;
+}
+
+#research {
+  
 }
 
 
