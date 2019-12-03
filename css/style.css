@@ -243,3 +243,15 @@ a:hover{
 .all-media h2{
   font-size: 35px;
 }
+
+#email{
+  color: white;
+  text-decoration: none;
+}
+#contact h2{
+  font-weight: normal;
+}
+
+#email:hover{
+  text-decoration: underline;
+}
