@@ -114,10 +114,14 @@ a.umbutton, a.googlebutton, a.researchbutton{
 #news .newpub, #news .newpaper, #news h3 {
   margin: 5%;
 }
-.researchhead h1 {
+.pagehead h1 {
   font-size: 60px;
   margin: none;
   margin-left: 5%;
+}
+
+.pagehead {
+  background: #ffffff url("../images/homebg.jpg")
 }
 
 .newpub, .newpaper {
@@ -144,10 +148,6 @@ a.umbutton, a.googlebutton, a.researchbutton{
 
 #research {
   margin: 5%;
-}
-.researchhead {
-  background: #ffffff url("../images/homebg.jpg")
-
 }
 
 
