@@ -237,5 +237,9 @@ a:hover{
  }
 
 #accordion h2{
-  font-size: 40px;
+  font-size: 35px;
+}
+
+.all-media h2{
+  font-size: 35px;
 }
