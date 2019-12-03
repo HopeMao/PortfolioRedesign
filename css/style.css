@@ -183,3 +183,36 @@ a{
 a:hover{
   font-weight: bold;
 }
+
+#contact-img {
+  grid-column: 1/-1;
+  text-align: center;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+  }
+
+ #contact h2 {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  right: 0%;
+  left: 0%;
+  color: white;
+  background:rgba(4, 36, 67, 0.8);
+  font-size: 30px;
+  padding:40px
+
+ }
+
+ .footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url("../images/homebg.jpg");
+  color: black;
+  text-align: center;
+  font-family: 'Assistant', sans-serif;
+  font-weight: lighter;
+ }
