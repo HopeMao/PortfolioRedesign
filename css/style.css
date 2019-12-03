@@ -184,6 +184,11 @@ a:hover{
   font-weight: bold;
 }
 
+#contact {
+  grid-row: 1/1;
+  grid-column: 1/-1;
+}
+
 #contact-img {
   grid-column: 1/-1;
   text-align: center;
@@ -206,7 +211,7 @@ a:hover{
  }
 
  .footer{
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
@@ -215,4 +220,11 @@ a:hover{
   text-align: center;
   font-family: 'Assistant', sans-serif;
   font-weight: lighter;
+  font-size: 25px;
+
+  grid-column: 1 / -1;
+  grid-row: 6 / auto;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  margin-bottom: -8px;
  }
