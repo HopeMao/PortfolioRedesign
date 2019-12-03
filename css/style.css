@@ -235,3 +235,7 @@ a:hover{
   padding-bottom: 2%;
   margin-bottom: -8px;
  }
+
+#accordion h2{
+  font-size: 40px;
+}
