@@ -1,6 +1,3 @@
-// $( function() {
-// 	$( "#accordion" ).accordion();
-// } );
 
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -16,3 +13,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+// $( function() {
+// 	$( "#accordion" ).accordion();
+// } );
