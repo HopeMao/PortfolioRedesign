@@ -264,7 +264,7 @@ a:hover{
 }
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
 
 #about {
   grid-column: 1/3;
