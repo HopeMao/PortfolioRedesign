@@ -120,11 +120,13 @@ a.umbutton, a.googlebutton, a.researchbutton{
 #news .newpub, #news .newpaper, #news h3 {
   margin: 5%;
 }
+
 .pagehead h1 {
   font-size: 60px;
   margin: none;
   margin-left: 5%;
   font-family: 'Sunflower', sans-serif;
+  margin-top: 12%;
 }
 
 .pagehead {
@@ -166,13 +168,15 @@ a.umbutton, a.googlebutton, a.researchbutton{
   background-color: black; /*#4FC3F7;*/
   align-items: top;
   justify-content: center;
-  width: 1fr;
-  padding:20px;
+  width: 100vw;
+  padding: 15px;
   margin:0px;
+  top: 0px;
+  position: fixed;
 }
 
 .navlink a{
-  font-size: 22px;
+  font-size: 20px;
   color: white;
   padding-left: 40px;
   padding-right: 40px;
@@ -271,7 +275,6 @@ a:hover{
   grid-row: 2/3;
   margin: 5%;
   text-align: center;
-
 }
 
 #aboutimg {
