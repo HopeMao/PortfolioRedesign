@@ -284,6 +284,10 @@ a:hover{
   font-size: 35px;
 }
 
+#accordion button {
+  width: 70vh;
+}
+
 #email{
   color: white;
   text-decoration: none;
