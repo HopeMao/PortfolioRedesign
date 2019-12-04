@@ -104,6 +104,7 @@ a.umbutton, a.googlebutton, a.researchbutton{
     /* border: 5px, black, solid; */
     text-decoration: none;
     /* color: initial; */
+    font-family: 'PT Sans', sans-serif;
 }
 
 #about {
