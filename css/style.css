@@ -224,6 +224,26 @@ a:hover{
 
  }
 
+a.cvbutton{
+ /* -webkit-appearance: button; */
+ /* -moz-appearance: button; */
+ appearance: button;
+ padding: 12px;
+ color: white;
+ font-size: 32px;
+ background-color: rgb(56, 94, 108);
+ border-radius: 10px;
+ /* border: 5px, black, solid; */
+ text-decoration: none;
+ /* color: initial; */
+ font-family: 'PT Sans', sans-serif;
+ position: absolute;
+ z-index: 1;
+ left: 45%;
+ top: 80%;
+}
+
+
  .footer{
   /* position: fixed; */
   left: 0;
