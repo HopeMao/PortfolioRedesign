@@ -161,6 +161,7 @@ a.umbutton, a.googlebutton, a.researchbutton{
 
 
 .nav-sections{
+  position: fixed;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -172,7 +173,6 @@ a.umbutton, a.googlebutton, a.researchbutton{
   padding: 15px;
   margin:0px;
   top: 0px;
-  position: fixed;
 }
 
 .navlink a{
