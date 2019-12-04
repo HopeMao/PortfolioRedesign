@@ -52,8 +52,6 @@ padding-inline-start: 20px;
   grid-template-columns: 25% 25% 25% 25% ;
   /* grid-template-rows: 100vh 45vh 50vh 100vh; */
   grid-template-rows: 100vh auto auto 100vh;
-
-  /* for home: landing, about, about image, publications */
 }
 
 #landing {
