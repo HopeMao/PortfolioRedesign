@@ -86,7 +86,6 @@ padding-inline-start: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content:center
-
 }
 
 .homebuttons a {
@@ -94,6 +93,7 @@ padding-inline-start: 20px;
   /* display: block; */
   width: 200px;
 }
+
 
 a.umbutton, a.googlebutton, a.researchbutton{
     /* -webkit-appearance: button; */
@@ -220,11 +220,10 @@ a:hover{
   color: white;
   background:rgba(4, 36, 67, 0.8);
   font-size: 30px;
-  padding:40px
-
+  padding:40px;
  }
 
-a.cvbutton{
+#cv .cvbutton{
  /* -webkit-appearance: button; */
  /* -moz-appearance: button; */
  appearance: button;
@@ -241,8 +240,21 @@ a.cvbutton{
  z-index: 1;
  left: 40%;
  margin-top: -60%;
-
 }
+
+#about .cvbutton {
+  appearance: button;
+  padding: 12px;
+  color: white;
+  font-size: 15px;
+  background-color: rgb(56, 94, 108);
+  border-radius: 10px;
+  /* border: 5px, black, solid; */
+  text-decoration: none;
+  /* color: initial; */
+  font-family: 'PT Sans', sans-serif;
+}
+
 
 .cv {
   display: flex;
