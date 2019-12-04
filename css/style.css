@@ -19,6 +19,10 @@ h2, h3 {
   font-family: 'Sunflower', sans-serif;
 
 }
+ ul{
+  list-style-image: url("../images/check.png");
+
+ }
 
 #research h2, #research h3, #research h4, #research h5, #research h5 {
   font-size: 25px;
