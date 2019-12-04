@@ -213,7 +213,7 @@ a:hover{
 
  #contact h2 {
   position: absolute;
-  top: 50%;
+  margin-top: -50%;
   text-align: center;
   right: 0%;
   left: 0%;
@@ -240,8 +240,17 @@ a.cvbutton{
  position: absolute;
  z-index: 1;
  left: 45%;
- top: 80%;
+ margin-top: -60%;
+
 }
+
+.cv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+
+}
+
 
 
  .footer{
